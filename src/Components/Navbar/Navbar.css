@@ -30,7 +30,6 @@ nav h1:hover {
   font-size: 32px;
 }
 
-/* Optional: style the toggle icon on dark background */
 .navbar-toggler-icon {
   filter: invert(1);
 }
