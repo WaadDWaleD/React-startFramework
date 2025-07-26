@@ -9,8 +9,6 @@ export default function Navbar() {
         <Link to="/home" className="text-decoration-none">
           <h1 className="my-0 ms-5 text-uppercase heading p-3">Start Framework</h1>
         </Link>
-
-        {/* Toggle button for small screens */}
         <button
           className="navbar-toggler text-white border-white"
           type="button"
@@ -22,8 +20,6 @@ export default function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
-        {/* Navbar links */}
         <div className="collapse navbar-collapse justify-content-end" id="mainNavbar">
           <ul className="list-unstyled d-flex flex-lg-row flex-column align-items-lg-center me-5 my-auto mb-0">
             <li className="mx-3 my-2 my-lg-0">
